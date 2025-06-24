@@ -1,0 +1,47 @@
+/* dialog.css */
+
+/* Basic styling for the dialog box */
+.dialog {
+    position: fixed; /* Position the dialog box fixed on the screen */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to be perfectly centered */
+    width: 300px; /* Set a fixed width */
+    padding: 20px; /* Add some padding inside the dialog */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Styling for the dialog header */
+.dialog-header {
+    font-size: 18px; /* Larger font size for the header */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px; /* Space between header and content */
+}
+
+/* Styling for the dialog content */
+.dialog-content {
+    font-size: 14px; /* Standard font size for content */
+    margin-bottom: 20px; /* Space between content and footer */
+}
+
+/* Styling for the dialog footer */
+.dialog-footer {
+    text-align: right; /* Align buttons to the right */
+}
+
+/* Styling for buttons in the dialog */
+.dialog-button {
+    padding: 8px 12px; /* Padding inside buttons */
+    background-color: #007BFF; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.dialog-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
